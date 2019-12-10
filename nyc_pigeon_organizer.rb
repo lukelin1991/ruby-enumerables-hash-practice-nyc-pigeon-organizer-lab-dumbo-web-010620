@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |key, value| # property: color, gender, lives. #hash: hash
-    hash.each do |attribute, array| #attribute: purple, male etc. etc....
+    hash.each do |describe, array| #attribute: purple, male etc. etc....
       array.each do |name| #name: idx inside array.
         if new_hash.has_key?(name) #does hash have name yet?
 

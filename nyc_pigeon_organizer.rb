@@ -7,8 +7,7 @@ def nyc_pigeon_organizer(data)
     value.each do |describe, array|
       array.each do |name|
         if new_hash.has_key?(name)
-
-          if new_hash[name].has_key?(property)
+          if new_hash[name].has_key?(key)
             new_hash[name][property] << attribute.to_s
           else
             new_hash[name][property] = [attribute.to_s]

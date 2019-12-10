@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
 
           if new_hash[name].has_key?(property) # if so, does name have name properties? (color/gender/lives)
             new_hash[name][property] << attribute.to_s
+            binding.pry
           else
             new_hash[name][property] = [attribute.to_s]
           end

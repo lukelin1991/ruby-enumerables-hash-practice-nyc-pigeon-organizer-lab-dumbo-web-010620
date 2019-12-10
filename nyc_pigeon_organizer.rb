@@ -2,7 +2,6 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  binding.pry
   data.each do |key, value|
     value.each do |describe, array|
       array.each do |name|

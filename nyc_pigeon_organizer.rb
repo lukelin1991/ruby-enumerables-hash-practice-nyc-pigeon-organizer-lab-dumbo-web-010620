@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
             new_hash[name][key] << describe.to_s
           else
             new_hash[name][key] = [describe.to_s]
+            binding.pry
           end
 
         else

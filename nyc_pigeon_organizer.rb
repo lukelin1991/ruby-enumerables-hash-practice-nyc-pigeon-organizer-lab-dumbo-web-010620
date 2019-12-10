@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
             new_hash[name][property] = [attribute.to_s]
           end
         else
-          hash_name[name] = {hash => [attribute.to_s]}
+          new_hash[name] = {hash => [attribute.to_s]}
         end
       end
     end
